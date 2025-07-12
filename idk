@@ -1,1 +1,45 @@
+<html>
+    <head>
+        <title>Site de test</title>
+        <link rel="stylesheet" href="website.css" /> <!-- Ici est la ligne pour utilisé le language CSS avec un fichier externe. Cette balise est un commentaire en HTML !-->
+    </head>
 
+    <body>
+        <h1>Testing Headers</h1>
+        <p>
+            Yooo that's a whole aaa
+            paragraph that's insane dude
+            <b>and this is probably bold text</b>
+            <i>and this is probably italic text</i>
+            <q>and idk wth this is (oh alright its a quote , nice)</q>
+            <s>and this is probably underline or idk oh its just a line alr</s>
+            <u>and this is underline 100%</u>
+            <a href="https://if.i.dont.put.the.https.it.doesnt.work">and this is a hyperlink</a>
+            <em>ooo what is this why is there two stuff for italic da hell</em>
+        </p>
+
+        <ul>
+            <li><button>This is a button inside a list of elements contained in a "li" stuff</button></li>
+            <li><progress></progress></li>
+            <li><select></select></li>
+            <li><span>whatever a span is</span></li>
+        </ul>
+
+        <style>
+            p {
+                color:rgb(191, 203, 168)
+            }
+        </style>
+
+        <p>
+            Thanks to the "style" element , i can use CSS directly in my code so my paragraph has different colors !
+        </p>
+
+        <h2>This header 2 has no style..</h2>
+        <h2 style="color: blue;">This one has ! (Thanks to the "style" option in the elements , you can add CSS to it directly !)</h2>
+        <h2>The most interesting and basic parameters are...</h2>
+        <h2 style="color: rgb(255, 0, 179);"> Colors </h2>
+        <h2 style="font-size: xx-small;"> Font size </h2>
+        <h2 style="outline-color: blue;outline-width: thick;outline-style: double;"> Outline </h2>
+    </body>
+</html>
